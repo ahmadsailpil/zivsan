@@ -4,7 +4,7 @@ let handler = async (m, { conn }) => {
     pepe = 'https://i.ibb.co/BzR1jRq/08a088fe953b.jpg'
     baper = await fetch(pepe).then(a => a.buffer())
     let listMessage = {
-        "title": "◈ Made by The.sad.boy01",
+        "title": "◈ Made by Ridho",
         "description": `
 ┌「 *Sewa bot* 」
 │     
