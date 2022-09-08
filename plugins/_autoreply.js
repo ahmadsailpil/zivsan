@@ -23,8 +23,8 @@ let fs = require('fs')
      // ketika ada yang invite/kirim link grup di chat pribadi 
      if ((m.mtype === 'groupInviteMessage' || m.text.startsWith('https://chat') || m.text.startsWith('Buka tautan ini')) && !m.isBaileys && !m.isGroup) { 
          this.sendTemplate2ButtonLoc(m.chat, 'https://telegra.ph/file/d75ed6e82e964778e169e.jpg', `┌「 *Undang Bot ke Grup* 」 
- ├ 7 Hari / Rp 5,000 
- ├ 30 Hari / Rp 15,000 
+ ├ 15 Hari / Rp 5,000 
+ ├ 30 Hari / Rp 10,000 
  └──── 
  `, wm, 'Pemilik Bot', '.owner', m) 
      } 
@@ -67,14 +67,14 @@ let fs = require('fs')
       if (new Date() * 1 - setting.status > 1000) {  
           let _uptime = process.uptime() * 1000  
           let uptime = clockString(_uptime)  
-   const ultah = new Date('April 4, 2023 23:59:59')
+   const ultah = new Date('Desember 17, 2022 23:59:59')
     const sekarat = new Date().getTime() 
     const Kurang = ultah - sekarat
     const ohari = Math.floor( Kurang / (1000 * 60 * 60 * 24));
     const ojam = Math.floor( Kurang % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
     const onet = Math.floor( Kurang % (1000 * 60 * 60) / (1000 * 60))
     const detek = Math.floor( Kurang % (1000 * 60) / 1000)
-        await this.setBio(`☘️ Ultah Ziv San : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik
+        await this.setBio(`☘️ Ultah Ridho : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik
 ⏲️ Runtime: ${uptime} | 🛰 Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Only Group' : 'Public'} | 💌 Made Ziv San`).catch(_ => _)  
           setting.status = new Date() * 1  
       } 
