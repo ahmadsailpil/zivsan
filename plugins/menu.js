@@ -317,7 +317,7 @@ let levelling = require('../lib/levelling')
  	let cute = `${pickRandom(['https://telegra.ph/file/c4c3f666673ad816d4813.jpg', 'https://telegra.ph/file/c4c3f666673ad816d4813.jpg', 'https://telegra.ph/file/c4c3f666673ad816d4813.jpg', 'https://telegra.ph/file/c4c3f666673ad816d4813.jpg', 'https://telegra.ph/file/c4c3f666673ad816d4813.jpg', 'https://telegra.ph/file/c4c3f666673ad816d4813.jpg', 'https://telegra.ph/file/c4c3f666673ad816d4813.jpg', 'https://telegra.ph/file/c4c3f666673ad816d4813.jpg', 'https://telegra.ph/file/c4c3f666673ad816d4813.jpg'])}` 
  	let ori = `Hi Kak, @${m.sender.split`@`[0]}
  
-Saya Adalah DaniBoTz-MD Salah Satu Bot Whatsapp Yang Siap Membantu Kamu Mempermudah Sesuatu Seperti Membuat Sticker Dan Lainnya, Kalo Kamu Mau Request Fitur Silahkan Ketik #request Pesan Atau Fitur Yang Kamu Inginkan!`
+Saya Adalah AsepBotz-MD Salah Satu Bot Whatsapp Yang Siap Membantu Kamu Mempermudah Sesuatu Seperti Membuat Sticker Dan Lainnya, Kalo Kamu Mau Request Fitur Silahkan Ketik #request Pesan Atau Fitur Yang Kamu Inginkan!`
 conn.sendMessage(m.chat, {
     	react: {
     		text: emot,
