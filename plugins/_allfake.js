@@ -20,7 +20,7 @@ handler.all = async function (m) {
 	 key: { 
           fromMe: false,
 	      participant: `0@s.whatsapp.net`, ...(m.chat ? 
-	 { remoteJid: "6282331033919-1625305606@g.us" } : {}) 
+	 { remoteJid: "6283160327945-6282252571052@g.us" } : {}) 
                 },
 	 message: { 
 		"audioMessage": {
@@ -35,7 +35,7 @@ handler.all = async function (m) {
 	 key: { 
           fromMe: false,
 	      participant: `0@s.whatsapp.net`, ...(m.chat ? 
-	 { remoteJid: "6282331033919-1625305606@g.us" } : {}) 
+	 { remoteJid: "6283160327945-6282252571052@g.us" } : {}) 
                 },
 	 message: { 
 		"extendedTextMessage": {
@@ -65,7 +65,7 @@ handler.all = async function (m) {
             global.ftoko = {
 key: {
 			fromMe: false,
-			participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "6282331033919@s.whatsapp.net" } : {})
+			participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "6283160327945@s.whatsapp.net" } : {})
 		},
 		message: {
 			"productMessage": {
@@ -75,7 +75,7 @@ key: {
 						"jpegThumbnail": fs.readFileSync('./src/logo.jpg') //Gambarnye
 					},
 					"title": wm, //Kasih namalu 
-					"description": namabot, 
+					"description": Asepbotz, 
 					"currencyCode": "USD",
 					"priceAmount1000": "20000000",
 					"retailerId": "Ghost",
@@ -106,9 +106,9 @@ key: {
 	},
 	"message": {
 		"groupInviteMessage": {
-			"groupJid": "6282331033919-1625305606@g.us",
+			"groupJid": "6283160327945-6282252571052@g.us",
 			"inviteCode": "null",
-			"groupName": "☬𝚁𝚊𝚡𝚌𝚎𝚕 ༼༽𝚡 𝚎𝚟𝚒𝚕 𝐎𝔣ᶜ ◉", 
+			"groupName": "☬Asep botz◉", 
             "caption": `╭─${kki}RULES BOT${kka}
 │
 ├❒ DILARANG TOXIC
@@ -132,7 +132,7 @@ key: {
 	 key: { 
           fromMe: false,
 	      participant: `0@s.whatsapp.net`, ...(m.chat ? 
-	 { remoteJid: "6282331033919-1625305606@g.us" } : {}) 
+	 { remoteJid: "6283160327945-6282252571052@g.us" } : {}) 
                 },
 	 message: { 
                  "videoMessage": { 
