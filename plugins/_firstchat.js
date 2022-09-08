@@ -15,7 +15,7 @@ handler.all = async function (m) {
     if (new Date - user.pc < 86400000) return // setiap 24 jam sekali
         await conn.send3ButtonLoc(m.chat, 'https://telegra.ph/file/0c308dfdb4f3217546663.jpg', `${ucapan()}, @${m.sender.split`@`[0]}
  ${user.banned ? 'kamu dibanned' : `
-Saya Adalah Dani, Bot What'sapp Yang Bisa Anda Gunakan Untuk Membuat Sticker, Mendownload Sesuatu, Bermain Game, Dll.
+Saya Adalah Asep, Bot What'sapp Yang Bisa Anda Gunakan Untuk Membuat Sticker, Mendownload Sesuatu, Bermain Game, Dll.
 
 Tolong Jangan Spam, Telepon, Vc, Kirim Virtex.`} 
  `.trim(), hao, user.banned ? 'Pemilik Bot' : 'Menu', user.banned ? '!owner' : '.simplemenu', 'Panduan penggunaan', '.tutorbot', 'Verify', '.daftar ${conn.getName(m.sender)}.16', m) 
