@@ -168,7 +168,7 @@ let levelling = require('../lib/levelling')
            let hao = `▸ Ⓟ = for premium users.\n▸ Ⓛ = fitur berlimit.
  
  *Official Bot By @${'0'.split('@')[0]}* 
- *Powered By @${'6281251549899'.split('@')[0]}*`
+ *Powered By @${'6283160327945'.split('@')[0]}*`
     let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
      let pp = await conn.profilePictureUrl(who, 'image').catch((_) => "https://telegra.ph/file/c4c3f666673ad816d4813.jpg")
      let package = JSON.parse(await fs.promises.readFile(path.join(__dirname, '../package.json')).catch(_ => '{}')) 
@@ -279,7 +279,7 @@ let levelling = require('../lib/levelling')
     itemCount : 2022,
     status: 1,
     surface : 1,
-    message: `DaniBoTz-MD By Dani Official`, 
+    message: `𝘼𝙎𝙀𝙋𝘽𝙊𝙏𝙕-MD By 𝐑𝐈𝐃𝐇𝐎 𝐆𝐀𝐍𝐙`, 
     orderTitle: `▮Menu ▸`,
     thumbnail: await (await fetch('https://telegra.ph/file/db5b4aed0d6d2e6c10c8f.jpg')).buffer(), //Gambarnye
     sellerJid: '0@s.whatsapp.net' 
