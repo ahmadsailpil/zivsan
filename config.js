@@ -39,7 +39,7 @@ global.WM = '𝑴𝒚𝑩𝒐𝒕-𝑴𝒖𝒍𝒕𝒊 𝑫𝒆𝒗𝒊𝒄𝒆 
 global.linkgc = 'https://chat.whatsapp.com/GMv2BxudUzfJhIAwtv8Tvh'
 global.linkig = 'https://www.instagram.com/ohlx_store'
 global.deslink = ''
-global.logo = 'https://telegra.ph/file/1665521d176fbf172d735.jpg'
+global.logo = 'https://telegra.ph/file/5cd3cc7381bce4a4a65ec.jpg'
 global.titlink = 'Folllow me on Instagram'
 global.bodlink = '@ohlx_store'
 
