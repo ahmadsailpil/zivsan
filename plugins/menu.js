@@ -324,7 +324,7 @@ conn.sendMessage(m.chat, {
     		key: m.key
     	}
     })	
-return conn.send2ButtonLoc(m.chat, cute, ori, `Note : If You Use Old Wa Or Mod And Button It Doesn't Look Di Rectly Type ${_p}? all`, 'COMMAND', '.menu2', 'DONASI', '.donasi', m)
+return conn.send2ButtonLoc(m.chat, cute, ori, `Note : Jika Anda Menggunakan Wa Lama Atau Mod Dan Tombol Itu Tidak Terlihat Langsung Ketik ${_p}? all`, 'COMMAND', '.? all', 'DONASI', '.donasi', m)
     
     }
   
