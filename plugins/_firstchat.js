@@ -13,12 +13,12 @@ handler.all = async function (m) {
     let hao = `*Official Bot By @${'0'.split('@')[0]}* 
 *Powered By @${global.owner[1].split('@')[0]}*`
     if (new Date - user.pc < 86400000) return // setiap 24 jam sekali
-        await conn.send3ButtonLoc(m.chat, 'https://telegra.ph/file/0c308dfdb4f3217546663.jpg', `${ucapan()}, @${m.sender.split`@`[0]}
+        await conn.send3ButtonLoc(m.chat, 'https://telegra.ph/file/309fe309cf1a8f0b9a463.jpg', ` ${ucapan()}, @${m.sender.split`@`[0]}
  ${user.banned ? 'kamu dibanned' : `
-Saya Adalah Asep, Bot What'sapp Yang Bisa Anda Gunakan Untuk Membuat Sticker, Mendownload Sesuatu, Bermain Game, Dll.
+Saya Adalah Cute, Bot What'sapp Yang Bisa Anda Gunakan Untuk Membuat Sticker, Mendownload Sesuatu, Bermain Game, Dll.
 
 Tolong Jangan Spam, Telepon, Vc, Kirim Virtex.`} 
- `.trim(), hao, user.banned ? 'Pemilik Bot' : 'Menu', user.banned ? '!owner' : '.simplemenu', 'Panduan penggunaan', '.tutorbot', 'Verify', '.daftar ${conn.getName(m.sender)}.16', m) 
+ `.trim(), hao, user.banned ? 'Pemilik Bot' : 'Menu', user.banned ? '!owner' : '.? all', 'Panduan penggunaan', '.tutorbot', 'Verify', '.daftar ${conn.getName(m.sender)}.16', m) 
      user.pc = new Date * 1 
  } 
  
