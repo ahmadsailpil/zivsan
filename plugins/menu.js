@@ -420,7 +420,8 @@ await conn.send3ButtonLoc(m.chat, await (await fetch(`${dimas()}`)).buffer(), '�
  handler.premium = false 
  handler.group = false 
  handler.private = false 
-  
+ handler.register = true
+
  handler.admin = false 
  handler.botAdmin = false 
   
